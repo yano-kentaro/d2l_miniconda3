@@ -8,6 +8,9 @@ docker-compose build
 docker-compose up -d
 ```
 
+## Downloading the D2L Notebooks
+Follow the documentation in Amazon Sagemaker Studio Lab.
+
 ## How to start Jupyter notebook
 1. Launch the CLI
 1. Execute the command below
