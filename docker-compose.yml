@@ -1,0 +1,11 @@
+version: "3"
+services:
+  miniconda3:
+    restart: always
+    build: .
+    container_name: "miniconda3"
+    working_dir: "/root/"
+    tty: true
+    volumes:
+      - ./python:/root/python
+      - ./d2l-en:/root/d2l-en
