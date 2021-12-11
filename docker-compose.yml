@@ -3,9 +3,11 @@ services:
   miniconda3:
     restart: always
     build: .
-    container_name: "miniconda3"
+    container_name: "d2l_miniconda3"
     working_dir: "/root/"
     tty: true
+    ports:
+      - 8888:8888
     volumes:
       - ./python:/root/python
       - ./d2l-en:/root/d2l-en
